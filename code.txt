@@ -1,0 +1,46 @@
+export default function donorPage() {
+    <div className="donorPage">
+        <Image
+            src="/donorpage.png"
+            width="1000"
+            height="1000"
+            alt = "pic"
+        />
+        <style jsx>{`
+            div {
+                background-image: url('/donorpage.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                height: 1300px;
+                width: 1200px; 
+            }
+            
+            `}</style>
+    </div>
+}
+
+
+
+<Image
+            src="/donorpage.png"
+            width="800"
+            height="800"
+            alt = "pic"
+        />
+        <style jsx>{`
+            div {
+                background-image: url('/donorpage.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                height: 800px;
+                width: 800px; 
+            }
+            
+            `}</style>
+
+
+             background-image: url('/donorpage.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 1200px;
